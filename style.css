@@ -1,0 +1,149 @@
+body {
+  background-color: black;
+  background-image: radial-gradient(
+    ellipse 80% 80% at 50% -20%,
+    rgba(120, 119, 198, 0.3),
+    rgba(255, 255, 255, 0)
+  );
+  min-height: 70vh;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+  font-size: 2.5vw;
+}
+
+.container-01 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+}
+
+.container-01 img {
+  width: 291px;
+  height: 291px;
+  object-fit: cover;
+  border-radius: 14px;
+  box-shadow: 0 4px 20px rgba(120, 119, 198, 0.5);
+}
+
+.container-text {
+  color: white;
+  padding: 2vw;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+.container-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.container-row02 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.container-02 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+  width: 100%;
+}
+
+.container-02 img {
+  width: 391px;
+  height: 391px;
+  border-radius: 14px;
+  object-fit: cover;
+  box-shadow: 0 4px 20px rgba(120, 119, 198, 0.5);
+}
+
+.container-03,
+.container-04,
+.container-05,
+.container-06 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2vh 1vw;
+  width: 300px;
+}
+
+.container-07,
+.container-08,
+.container-09,
+.container-10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2vh 1vw;
+  width: 300px;
+}
+
+.container-03 img,
+.container-04 img,
+.container-05 img,
+.container-06 img {
+  width: 300px;
+  height: 400px;
+  border-radius: 14px;
+  object-fit: cover;
+  box-shadow: 0 4px 20px rgba(120, 119, 198, 0.5);
+}
+
+.container-07 img,
+.container-08 img,
+.container-09 img,
+.container-10 img {
+  width: 300px;
+  height: 600px;
+  border-radius: 14px;
+  object-fit: cover;
+  box-shadow: 0 4px 20px rgba(120, 119, 198, 0.5);
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 5vw;
+  }
+
+  .container-text {
+    font-size: 3vw;
+  }
+
+  .container-02 img {
+    width: 80vw;
+    height: auto;
+    max-width: 300px;
+  }
+
+  .container-03,
+  .container-04,
+  .container-05,
+  .container-06,
+  .container-07,
+  .container-08,
+  .container-09,
+  .container-10 {
+    width: 80vw;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container-text {
+    padding: 5vw;
+  }
+}
